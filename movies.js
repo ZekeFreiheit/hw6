@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', async function(event) {
   // movies. Write the contents of this array to the JavaScript
   // console to ensure you've got good data
   // ⬇️ ⬇️ ⬇️
-  let url = 'https://api.themoviedb.org/3/movie/now_playing?api_key=0bc3fd43a07479a11b655c84e5014e72&language=en-US'
+  let url = 'https://api.themoviedb.org/3/movie/now_playing?api_key=375d0a92f607e2b710d48713945d04d9&language=en-US'
   let response = await fetch(url)
   let json = await response.json()
   let movies = json.results
